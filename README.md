@@ -6,3 +6,7 @@
 ### Paper: https://arxiv.org/pdf/2105.13290.pdf
 
 ### Demo: https://lab.aminer.cn/cogview/index.html
+
+## Samples
+
+![Samples](samples.PNG)
