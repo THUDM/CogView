@@ -1,0 +1,17 @@
+.idea/
+*_jax*
+events.out*
+__pycache__/
+*.pt
+data
+core.*
+_cache*
+.vscode/
+samples/
+hostfile
+pretrained/checkpoints
+*.png
+*.jpg
+*.jpeg
+input*.txt
+samples*
