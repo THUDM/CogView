@@ -75,6 +75,11 @@ Run the following script and input `text\t{image_path}`, where `{image_path}` me
 ```
 ./scripts/super_resolution.sh
 ```
+
+Super-resolution example (from paper):
+
+![Super Res Sample](https://cdn.discordapp.com/attachments/843029697000636427/854550124071485501/unknown.png)
+
 Note: *It is only effective for generated images from our Image Tokenizer (due to the token distribution).*
 
 #### Image-to-Text
