@@ -62,7 +62,6 @@ def setup_model(args):
             else:
                 checkpoint = torch.load(path, map_location=torch.device('cpu'))
 
-            model.load_state_dict(checkpoint["module"])
 
             if args.offload:
                 model = model.half().cuda()
