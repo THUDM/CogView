@@ -69,6 +69,7 @@ Arguments useful in inference are mainly:
 * `--debug`. Only save concatenated images for all generated samples, and name them by input text and date. 
 * `--with-id`. When it toggled, you must specify an "id" before each input, e.g. `001\t一个漂亮的女孩`, \t denoting TAB (**NOT space**). It will generate `batch-size` split images in a folder named "id" for each input. Confict with `--debug`.
 * `--device [int]`. Running on which GPU. 
+* `--offload`. Whether to offload model loading on the CPU. (For loading on GPUs w/ <16GB vRAM)
 
 #### Super-resolution
 Run the following script and input `text\t{image_path}`, where `{image_path}` means the path of a previously generated image.

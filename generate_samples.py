@@ -56,7 +56,16 @@ def setup_model(args):
             iteration, release, success = get_checkpoint_iteration(args)
             path = os.path.join(args.load, str(iteration), "mp_rank_00_model_states.pt")
             print('current device:', torch.cuda.current_device())
-            checkpoint = torch.load(path, map_location=lambda storage, loc: storage.cuda(torch.cuda.current_device()))
+
+            if not args.offload:
+                checkpoint = torch.load(path, map_location=lambda storage, loc: storage.cuda(torch.cuda.current_device()))
+            else:
+                checkpoint = torch.load(path, map_location=torch.device('cpu'))
+
+            model.load_state_dict(checkpoint["module"])
+
+            if args.offload:
+                model = model.half().cuda()
             model.load_state_dict(checkpoint["module"])
             print(f"Load model file {path}")
         else:

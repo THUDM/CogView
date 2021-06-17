@@ -281,6 +281,8 @@ def add_generation_api_args(parser):
     group.add_argument('--check_mode', default='code')
     group.add_argument('--time_interval', default=10)
     group.add_argument('--device', default=None)
+    group.add_argument('--offload', action='store_true',
+                       help='Offload the model on CPU while loading. Useful for low vRAM environments')
 
     return parser
 

@@ -25,6 +25,7 @@ script_dir=$(dirname $script_path)
 
 MASTER_PORT=${MASTER_PORT} python generate_samples.py \
        --deepspeed \
+       --offload \
        --model-parallel-size $MPSIZE \
        --num-layers $NLAYERS \
        --hidden-size $NHIDDEN \
