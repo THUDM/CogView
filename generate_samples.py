@@ -64,7 +64,7 @@ def setup_model(args):
             model.load_state_dict(checkpoint["module"])
 
             if args.offload:
-                model = model.half().cuda()
+                model = model.cuda()
 
             print(f"Load model file {path}")
         else:
