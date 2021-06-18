@@ -20,6 +20,7 @@ CogView is a pretrained (4B-param) transformer for text-to-image generation in g
   journal={arXiv preprint arXiv:2105.13290},
   year={2021}
 ```
+* **Google Colab** Two contributors successfully setup up CogView on Colab [![Links to Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/THUDM/CogView/issues/10)! 
 ## Getting Started
 ### Setup
 * Hardware: Linux servers with Nvidia V100s or A100s are recommended, but it is also okay to run the pretrained models with smaller `--max-inference-batch-size` or training smaller models on less powerful GPUs.
