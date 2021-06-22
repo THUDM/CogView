@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cogview/static/css/main.f5b6ebd2.chunk.css",
+    "main.js": "/cogview/static/js/main.79340166.chunk.js",
+    "main.js.map": "/cogview/static/js/main.79340166.chunk.js.map",
+    "runtime-main.js": "/cogview/static/js/runtime-main.bd1f864d.js",
+    "runtime-main.js.map": "/cogview/static/js/runtime-main.bd1f864d.js.map",
+    "static/css/2.dd966db3.chunk.css": "/cogview/static/css/2.dd966db3.chunk.css",
+    "static/js/2.92e3fecd.chunk.js": "/cogview/static/js/2.92e3fecd.chunk.js",
+    "static/js/2.92e3fecd.chunk.js.map": "/cogview/static/js/2.92e3fecd.chunk.js.map",
+    "static/js/3.4a59713d.chunk.js": "/cogview/static/js/3.4a59713d.chunk.js",
+    "static/js/3.4a59713d.chunk.js.map": "/cogview/static/js/3.4a59713d.chunk.js.map",
+    "index.html": "/cogview/index.html",
+    "static/css/2.dd966db3.chunk.css.map": "/cogview/static/css/2.dd966db3.chunk.css.map",
+    "static/css/main.f5b6ebd2.chunk.css.map": "/cogview/static/css/main.f5b6ebd2.chunk.css.map",
+    "static/js/2.92e3fecd.chunk.js.LICENSE.txt": "/cogview/static/js/2.92e3fecd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd1f864d.js",
+    "static/css/2.dd966db3.chunk.css",
+    "static/js/2.92e3fecd.chunk.js",
+    "static/css/main.f5b6ebd2.chunk.css",
+    "static/js/main.79340166.chunk.js"
+  ]
+}
