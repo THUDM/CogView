@@ -10,7 +10,7 @@
 CogView is a pretrained (4B-param) transformer for text-to-image generation in general domain.
 
 * **Read** our paper [CogView: Mastering Text-to-Image Generation via Transformers](https://arxiv.org/pdf/2105.13290.pdf) on ArXiv for a formal introduction. The *PB-relax* and *Sandwich-LN* can also help you train large and deep transformers stably (e.g. eliminating NaN losses).
-* **Visit** our demo at https://lab.aminer.cn/cogview/index.html! (Without post-selection or super-resolution, currently only supports simplified Chinese input, but one can translate text from other languages into Chinese for input)
+* **Visit** our demo at [Github Page](https://thudm.github.io/CogView/index.html) or [Wudao](https://wudao.aminer.cn/CogView/)! (Without post-selection or super-resolution, currently only supports simplified Chinese input, but one can translate text from other languages into Chinese for input. Note: *Wudao* provides faster access for users from China mainland.)
 * **Download** our pretrained models from [Project Wudao-Wenhui](https://resource.wudaoai.cn/home?ind=2&name=WuDao%20WenHui&id=1399364355975327744)（悟道-文汇）.
 * **Cite** our paper if you find our work is helpful~ 
 ```
