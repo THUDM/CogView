@@ -17,9 +17,9 @@ HOST_FILE_PATH="hostfile_single"
 
 config_json="$script_dir/ds_config.json"
 gpt_options=" \
-       --experiment-name cogview-ali_fashion_tutorial-12-1024-16 \
+       --experiment-name cogview-bird_animal_tutorial-12-1024-16 \
        --img-tokenizer-num-tokens 8192 \
-       --dataset-type TokenizedDataset \
+       --dataset-type CompactBinaryDataset \
        --model-parallel-size ${MP_SIZE} \
        --num-layers 12 \
        --hidden-size 1024 \
@@ -27,7 +27,7 @@ gpt_options=" \
        --save $main_dir/data/checkpoints \
        --train-iters 20000 \
        --resume-dataloader \
-       --train-data ./data/ali_vqvae_hard_biggerset_011.lmdb \
+       --train-data ./data/bird_animal.bin \
        --split 949,50,1 \
        --distributed-backend nccl \
        --lr-decay-style cosine \

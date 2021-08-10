@@ -50,7 +50,10 @@ wget https://cloud.tsinghua.edu.cn/f/71607a5dca69417baa8c/?dl=1 -O pretrained/vq
     ```
     tar -xvf cogview-{base, sr, caption}.tar -C pretrained/cogview/
     ```
-2. (Only for training tutorial, skip it for inference.) Download the Alibaba item-title image tokens dataset from our link at [Tianchi]()(*TODO*). Place the lmdb folder under `./data`.
+2. (Only for training tutorial, skip it for inference.) Download a small "bird-and-animal" example dataset from our link at Tsinghua Cloud.
+```
+wget https://cloud.tsinghua.edu.cn/f/1e4963ec8ac84941ba68/?dl=1 -O data/bird_animal.bin
+```
 
 ### Run CogView! (Model Inference)
 We encapsulate the generation functions into scripts. See `generate_samples.py` and `arguments.py` for details.
@@ -95,7 +98,7 @@ The output is `{output_path}/scores.txt`, a line of a list of scores, following 
 Note: *In the released codes, for simplicity, we did not expose the raw API , which supports some advanced generation modes, e.g. text and part of image.*
 
 ## Training
-Here we use a subset of our dataset from Alibaba item-title for tutorial.
+Here we use a subset of our dataset from bird-and-animal for tutorial.
 ### Single Node 
 After downloading the dataset, directly run
 ```

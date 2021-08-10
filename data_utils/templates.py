@@ -51,7 +51,16 @@ def concat_codes(*codes):
 
 def TextCodeTemplate(text, code):
     tokenizer = get_tokenizer()
-    text_ids = [tokenizer['[ROI1]']] + tokenizer(text)
+    if isinstance(text, str):
+        text_ids = [tokenizer['[ROI1]']] + tokenizer(text)
+    else:
+        text_ids = np.concatenate(
+                (
+                    np.array([tokenizer['[ROI1]']]),
+                    text,
+                ),
+                axis=0
+            )
     code = tokenizer.wrap_code(code)
     return concat_codes(text_ids, code)
 

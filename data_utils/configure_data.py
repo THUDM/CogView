@@ -282,7 +282,7 @@ class RandomMappingDataset(data.Dataset):
         self.wrapped_data = ds
 
     def __len__(self):
-        return len(self.wrapped_data) * 60
+        return len(self.wrapped_data) * 200
 
     def __getitem__(self, index):
         rng = random.Random(index)
@@ -301,7 +301,7 @@ def detect_new_datasets(args):
     found = []
     for _p in os.listdir(args.new_dataset_path):
         p = os.path.join(args.new_dataset_path, _p)
-        if str(p).endswith('lmdb') and not str(os.path.abspath(p)) in current_datasets:
+        if (str(p).endswith('lmdb') or str(p).endswith('bin')) and not str(os.path.abspath(p)) in current_datasets:
             found.append(p)
     if len(found) == 0:
         return None

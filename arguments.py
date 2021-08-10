@@ -260,7 +260,9 @@ def add_data_args(parser):
     group.add_argument('--dataset-type', type=str,
                        default='TokenizedDataset',
                        choices=['TokenizedDataset',
-                                'TextCodeDataset'],
+                                'TextCodeDataset',
+                                'CompactBinaryDataset'
+                                ],
                        help='what type of dataset to use')
 
     group.add_argument('--max-memory-length', type=int, default=2048,

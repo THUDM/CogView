@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ==== tutorial settings: =====
-# CHECKPOINT_PATH=data/checkpoints/cogview-ali_fashion_tutorial-12-1024-1606-14-06-09
+# CHECKPOINT_PATH=data/checkpoints/cogview-bird_animal_tutorial-12-1024-1608-10-09-38
 # NLAYERS=12
 # NHIDDEN=1024
 # NATT=16
