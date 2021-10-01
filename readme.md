@@ -7,6 +7,9 @@
 
 ![teaser](assets/cogviewcase.png)
 
+**News!** The paper of CogView is accepted by NeurIPS 2021! 
+**News!** The [demo](https://agc.platform.baai.ac.cn/CogView/index.html) for a better and faster CogView2 (new version) is available!
+
 CogView is a pretrained (4B-param) transformer for text-to-image generation in general domain.
 
 * **Read** our paper [CogView: Mastering Text-to-Image Generation via Transformers](https://arxiv.org/pdf/2105.13290.pdf) on ArXiv for a formal introduction. The *PB-relax* and *Sandwich-LN* can also help you train large and deep transformers stably (e.g. eliminating NaN losses).
