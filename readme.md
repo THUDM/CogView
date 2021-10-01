@@ -7,8 +7,9 @@
 
 ![teaser](assets/cogviewcase.png)
 
-**News!** The paper of CogView is accepted by NeurIPS 2021! 
 **News!** The [demo](https://agc.platform.baai.ac.cn/CogView/index.html) for a better and faster CogView2 (new version) is available!
+
+**News!** The paper of CogView is accepted by NeurIPS 2021! 
 
 CogView is a pretrained (4B-param) transformer for text-to-image generation in general domain.
 
