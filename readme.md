@@ -7,6 +7,8 @@
 
 ![teaser](assets/cogviewcase.png)
 
+**News!** The [demo](https://agc.platform.baai.ac.cn/CogView/index.html) for a better and faster CogView2 (formal version, March 2022) is available!
+
 **News!** The [demo](https://agc.platform.baai.ac.cn/CogView/index.html) for a better and faster CogView2 (new version) is available!
 
 **News!** The paper of CogView is accepted by NeurIPS 2021! 
