@@ -7,7 +7,7 @@
 
 ![teaser](assets/cogviewcase.png)
 
-**News!** The [demo](https://agc.platform.baai.ac.cn/CogView/index.html) for a better and faster CogView2 (formal version, March 2022) is available!
+**News!** The [demo](https://agc.platform.baai.ac.cn/CogView/index.html) for a better and faster CogView2 (formal version, March 2022) is available! The lastest model also supports English input, but to translate them into Chinese often could be better.
 
 **News!** The [demo](https://agc.platform.baai.ac.cn/CogView/index.html) for a better and faster CogView2 (new version) is available!
 
