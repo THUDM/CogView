@@ -297,6 +297,9 @@ def load_checkpoint(model, optimizer, lr_scheduler, args, load_optimizer_states=
     if args.deepspeed:
         
         checkpoint_name, sd = model.load_checkpoint(args.load, iteration, load_optimizer_states=not args.no_load_optim)
+        if args.fp16 and args.no_load_optim:
+            model.optimizer.refresh_fp32_params()
+            
         if "client_lr_scheduler" in sd:
             lr_scheduler.load_state_dict(sd["client_lr_scheduler"])
             print_rank_0("Load lr scheduler state")
