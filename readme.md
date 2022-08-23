@@ -44,7 +44,7 @@ CogView is a pretrained (4B-param) transformer for text-to-image generation in g
 ### Download
 0. Download the image tokenizer `vqvae_hard_biggerset_011.pt` from [BAAI website](https://resource.wudaoai.cn/home?ind=2&name=WuDao%20WenHui&id=1399364355975327744) or Tsinghua Cloud. Place the file under `pretrained/vqvae`.
 ```
-wget https://cloud.tsinghua.edu.cn/f/71607a5dca69417baa8c/?dl=1 -O pretrained/vqvae/vqvae_hard_biggerset_011.pt
+wget 'https://cloud.tsinghua.edu.cn/f/71607a5dca69417baa8c/?dl=1' -O pretrained/vqvae/vqvae_hard_biggerset_011.pt
 ```
 1. Download models from [Project Wudao-Wenhui](https://resource.wudaoai.cn/home?ind=2&name=WuDao%20WenHui&id=1399364355975327744). 
     |  FileName   | Discription  |
