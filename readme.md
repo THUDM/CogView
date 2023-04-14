@@ -6,6 +6,8 @@
 </p>
 
 ![teaser](assets/cogviewcase.png)
+**News!** The codes of ImageReward ([paper link](https://arxiv.org/abs/2304.05977.pdf)) have been released at https://github.com/THUDM/ImageReward! ImageReward is the first general-purpose text-to-image human preference RM.
+
 **News!** The codes of CogView2 ([paper link](https://arxiv.org/pdf/2105.13290.pdf)) have been released at https://github.com/THUDM/CogView2! 
 
 **News!** The [demo](https://agc.platform.baai.ac.cn/CogView/index.html) for a better and faster CogView2 (formal version, March 2022) is available! The lastest model also supports English input, but to translate them into Chinese often could be better.
