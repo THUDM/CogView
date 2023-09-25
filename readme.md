@@ -6,6 +6,9 @@
 </p>
 
 ![teaser](assets/cogviewcase.png)
+
+**News!** The paper of ImageReward is accepted by NeurIPS 2023!
+
 **News!** The codes of ImageReward ([paper link](https://arxiv.org/abs/2304.05977.pdf)) have been released at https://github.com/THUDM/ImageReward! ImageReward is the first general-purpose text-to-image human preference RM.
 
 **News!** The codes of CogView2 ([paper link](https://arxiv.org/pdf/2105.13290.pdf)) have been released at https://github.com/THUDM/CogView2! 
